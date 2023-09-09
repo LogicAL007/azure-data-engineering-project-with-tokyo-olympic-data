@@ -6,7 +6,7 @@ In this multifaceted project, we harness the power of Azure's data services to u
 
 ## Data Source
 
-Our primary dataset is the Tokyo Olympics dataset available on [kaggle](hhttps://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo) . This data provides a detailed snapshot of every participant, inclusive of coaches, medals, Teams and gender.
+Our primary dataset is the Tokyo Olympics dataset available on [kaggle](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo) . This data provides a detailed snapshot of every participant, inclusive of coaches, medals, Teams and gender.
 
 ## Objectives
 
