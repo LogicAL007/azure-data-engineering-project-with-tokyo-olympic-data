@@ -59,7 +59,7 @@ Now that Azure Databricks can securely and seamlessly communicate with the Azure
   
 - **Staging Area**: Designate the `raw_data` folder as the primary repository for the freshly ingested data, facilitating easier subsequent processing.
 
-<img width="1280" alt="Screenshot 2023-09-06 182133" src="https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/60d80fce-7358-4983-9b73-66bffc9d0175">
+<img width="1280" alt="Screenshot 2023-09-06 183315" src="https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/48ee044e-ffa3-4059-82b8-a5a95d6b3009">
 
 ### 2. Transformation & Preparation with Azure Databricks:
 
@@ -69,14 +69,20 @@ Now that Azure Databricks can securely and seamlessly communicate with the Azure
   
 - **Execution**: Systematically run the notebooks, ensuring each transformation step successfully cleans, structures, and preps the data for the next phase.
 
+<img width="1280" alt="Screenshot 2023-09-06 201541" src="https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/7a5f2474-f473-4b60-83cc-dd2ad54fd0a8">
+
 
 ### 3. Data Analysis using Azure Synapse Analytics:
 
-- **Synapse Studio Setup**: Navigate to and configure your Azure Synapse Studio. Become well-acquainted with the environment, focusing particularly on the data ingestion and querying aspects.
+- **Synapse Studio Setup**: Navigate to and configure your Azure Synapse Studio. Become well-acquainted with the environment, focusing particularly on the data ingestion and querying aspects then create a workspace for the task to be performed using the same resource group as your storage account.
+<img width="1280" alt="Screenshot 2023-09-07 124757" src="https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/9d447abb-d36b-4c1a-b36c-6b443e88f4fb">
+- **lake database** : create and lake database and add all the transformed data as tables.
+<img width="1280" alt="Screenshot 2023-09-07 204243" src="https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/3825b927-9da8-404e-b311-5ef2803e8596">
   
-- **Script Uploading**: Upload SQL scripts from `synapse_scripts`. These are tailored to provide insights about the gender distribution and medal count for each country.
+- **Script writing**: create a SQL scripts from on synapse analytics and write your queries. These quieries are tailored to provide insights about the gender distribution and medal count for each country.
   
 - **Comprehensive Analysis**: Execute SQL scripts to not only derive the male-to-female participant ratio but also consolidate medals by country. Ensure your results are formatted suitably for visualization.
+<img width="1280" alt="Screenshot 2023-09-07 205758" src="https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/68bba5f7-faf3-4516-968c-9e6866ccd221">
 
 ### 4. Visualization in Power BI:
 
