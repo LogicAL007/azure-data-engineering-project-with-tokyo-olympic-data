@@ -59,6 +59,8 @@ Now that Azure Databricks can securely and seamlessly communicate with the Azure
   
 - **Staging Area**: Designate the `raw_data` folder as the primary repository for the freshly ingested data, facilitating easier subsequent processing.
 
+<img width="1280" alt="Screenshot 2023-09-06 182133" src="https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/60d80fce-7358-4983-9b73-66bffc9d0175">
+
 ### 2. Transformation & Preparation with Azure Databricks:
 
 - **Workspace Initialization**: If you haven't already, set up a new Databricks workspace. This isolated environment is pivotal for scalable data processing.
