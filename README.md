@@ -7,6 +7,8 @@ In this multifaceted project, we harness the power of Azure's data services to u
 ## Data Source
 
 Our primary dataset is the Tokyo Olympics dataset available on [kaggle](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo) . This data provides a detailed snapshot of every participant, inclusive of coaches, medals, Teams and gender.
+## Data Architecture 
+![olympicData drawio (1)](https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/e45e452a-767f-46f3-826e-e7c136463e77)
 
 ## Objectives
 
@@ -76,7 +78,9 @@ Now that Azure Databricks can securely and seamlessly communicate with the Azure
 
 - **Synapse Studio Setup**: Navigate to and configure your Azure Synapse Studio. Become well-acquainted with the environment, focusing particularly on the data ingestion and querying aspects then create a workspace for the task to be performed using the same resource group as your storage account.
 <img width="1280" alt="Screenshot 2023-09-07 124757" src="https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/9d447abb-d36b-4c1a-b36c-6b443e88f4fb">
-- **lake database** : create and lake database and add all the transformed data as tables.
+
+- **lake database**: create and lake database and add all the transformed data as tables.
+  
 <img width="1280" alt="Screenshot 2023-09-07 204243" src="https://github.com/LogicAL007/azure-data-engineering-project-with-tokyo-olympic-data/assets/122959675/3825b927-9da8-404e-b311-5ef2803e8596">
   
 - **Script writing**: create a SQL scripts from on synapse analytics and write your queries. These quieries are tailored to provide insights about the gender distribution and medal count for each country.
